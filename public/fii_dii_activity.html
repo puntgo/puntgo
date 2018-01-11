@@ -1,0 +1,40 @@
+<span>
+    <h2>
+        <a href="/">
+            <i class="glyphicon glyphicon-menu-left"></i>
+        </a>
+    </h2>
+</span>
+
+<h1> Hello Keshav</h1>
+<nvd3 options="configBarChart" data="barChartData"></nvd3>
+  <div class="row">
+      <div class="col-sm-11">
+          <table class="table">
+              <thead>
+                  <tr>
+                      <th> Date </th>
+                      <th> DII Gross Sale </th>
+                      <th>DII Gross Purchase </th>
+                      <th>DII Net </th>
+                      <th> FII Gross Sale </th>
+                      <th>FII Gross Purchase </th>
+                      <th>FII Net </th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr class="" ng-repeat="obj in fiiDiiDataList">
+                    <td> {{obj.date}} </td>
+                    <td> {{obj.diiGrossPurchase}} </td>
+                    <td> {{obj.diiGrossSale}} </td>
+                    <td> {{obj.diiNet}} </td>
+                    <td> {{obj.fiiGrossPurchase}} </td>
+                    <td> {{obj.fiiGrossSale}} </td>
+                    <td> {{obj.fiiNet}} </td>
+                  </tr>
+                  <tr class="danger">
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>

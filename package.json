@@ -1,0 +1,40 @@
+{
+  "name": "puntgo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./config/bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "angular": "^1.6.1",
+    "angular-animate": "^1.6.1",
+    "angular-aria": "^1.6.1",
+    "angular-bootstrap-calendar": "^0.30.0",
+    "angular-material": "^1.1.5",
+    "angular-messages": "^1.6.1",
+    "angular-nvd3": "^1.0.9",
+    "angular-route": "^1.6.1",
+    "bluebird": "^3.5.1",
+    "body-parser": "~1.15.2",
+    "bootstrap": "^3.3.7",
+    "cheerio": "^1.0.0-rc.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "ejs": "~2.5.2",
+    "express": "~4.14.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.1.1",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.4.2",
+    "ngprogress": "^1.1.1",
+    "node-fetch": "^1.7.3",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "sequelize": "^4.14.0"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}

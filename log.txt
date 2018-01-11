@@ -1,0 +1,1503 @@
+Pre Result Estimates Batch Started
+Promise { <pending> }
+Pre Result Estimates Batch Ended
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boo' } ],
+  fields: 
+   { PRIMARY: 'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boo' },
+  parent: 
+   { Error: Duplicate entry 'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boo' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boost results: Poll\',\'2017-11-02 00:47:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hindalco-q2-profit-seen-9-higher-at-rs-477-cr-lme-rally-to-boost-results-poll-2427547.html\');' },
+  original: 
+   { Error: Duplicate entry 'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boo' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boost results: Poll\',\'2017-11-02 00:47:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hindalco-q2-profit-seen-9-higher-at-rs-477-cr-lme-rally-to-boost-results-poll-2427547.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hindalco Q2 profit seen 9% higher at Rs 477 cr; LME rally to boost results: Poll\',\'2017-11-02 00:47:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hindalco-q2-profit-seen-9-higher-at-rs-477-cr-lme-rally-to-boost-results-poll-2427547.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Titan Company may post 20% growth in Q2 profit, jewellery sales ' } ],
+  fields: 
+   { PRIMARY: 'Titan Company may post 20% growth in Q2 profit, jewellery sales ' },
+  parent: 
+   { Error: Duplicate entry 'Titan Company may post 20% growth in Q2 profit, jewellery sales ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Titan Company may post 20% growth in Q2 profit, jewellery sales seen growing 19%\',\'2017-11-02 00:45:00\',\'http://www.moneycontrol.com/news/business/earnings-business/titan-company-may-post-20-growth-in-q2-profit-jewellery-sales-seen-growing-19-2427545.html\');' },
+  original: 
+   { Error: Duplicate entry 'Titan Company may post 20% growth in Q2 profit, jewellery sales ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Titan Company may post 20% growth in Q2 profit, jewellery sales seen growing 19%\',\'2017-11-02 00:45:00\',\'http://www.moneycontrol.com/news/business/earnings-business/titan-company-may-post-20-growth-in-q2-profit-jewellery-sales-seen-growing-19-2427545.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Titan Company may post 20% growth in Q2 profit, jewellery sales seen growing 19%\',\'2017-11-02 00:45:00\',\'http://www.moneycontrol.com/news/business/earnings-business/titan-company-may-post-20-growth-in-q2-profit-jewellery-sales-seen-growing-19-2427545.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operati' } ],
+  fields: 
+   { PRIMARY: 'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operati' },
+  parent: 
+   { Error: Duplicate entry 'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operati' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operational margin at 21.9%\',\'2017-11-02 00:32:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tata-power-q2-profit-seen-higher-by-26-at-rs-544-crore-operational-margin-at-21-9-2427529.html\');' },
+  original: 
+   { Error: Duplicate entry 'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operati' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operational margin at 21.9%\',\'2017-11-02 00:32:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tata-power-q2-profit-seen-higher-by-26-at-rs-544-crore-operational-margin-at-21-9-2427529.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tata Power Q2 profit seen higher by 26% at Rs 544 crore; operational margin at 21.9%\',\'2017-11-02 00:32:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tata-power-q2-profit-seen-higher-by-26-at-rs-544-crore-operational-margin-at-21-9-2427529.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Punjab National Bank Q2 profit seen down 33%, slippages could be' } ],
+  fields: 
+   { PRIMARY: 'Punjab National Bank Q2 profit seen down 33%, slippages could be' },
+  parent: 
+   { Error: Duplicate entry 'Punjab National Bank Q2 profit seen down 33%, slippages could be' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Punjab National Bank Q2 profit seen down 33%, slippages could be below Rs 6,000 cr\',\'2017-11-02 00:31:00\',\'http://www.moneycontrol.com/news/business/earnings-business/punjab-national-bank-q2-profit-seen-down-33-slippages-could-be-below-rs-6000-cr-2427531.html\');' },
+  original: 
+   { Error: Duplicate entry 'Punjab National Bank Q2 profit seen down 33%, slippages could be' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Punjab National Bank Q2 profit seen down 33%, slippages could be below Rs 6,000 cr\',\'2017-11-02 00:31:00\',\'http://www.moneycontrol.com/news/business/earnings-business/punjab-national-bank-q2-profit-seen-down-33-slippages-could-be-below-rs-6000-cr-2427531.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Punjab National Bank Q2 profit seen down 33%, slippages could be below Rs 6,000 cr\',\'2017-11-02 00:31:00\',\'http://www.moneycontrol.com/news/business/earnings-business/punjab-national-bank-q2-profit-seen-down-33-slippages-could-be-below-rs-6000-cr-2427531.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'PFC may post 5% fall in Q2 profit, loan growth seen in double di' } ],
+  fields: 
+   { PRIMARY: 'PFC may post 5% fall in Q2 profit, loan growth seen in double di' },
+  parent: 
+   { Error: Duplicate entry 'PFC may post 5% fall in Q2 profit, loan growth seen in double di' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'PFC may post 5% fall in Q2 profit, loan growth seen in double digits\',\'2017-11-02 00:21:00\',\'http://www.moneycontrol.com/news/business/earnings-business/pfc-may-post-5-fall-in-q2-profit-loan-growth-seen-in-double-digits-2427521.html\');' },
+  original: 
+   { Error: Duplicate entry 'PFC may post 5% fall in Q2 profit, loan growth seen in double di' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'PFC may post 5% fall in Q2 profit, loan growth seen in double digits\',\'2017-11-02 00:21:00\',\'http://www.moneycontrol.com/news/business/earnings-business/pfc-may-post-5-fall-in-q2-profit-loan-growth-seen-in-double-digits-2427521.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'PFC may post 5% fall in Q2 profit, loan growth seen in double digits\',\'2017-11-02 00:21:00\',\'http://www.moneycontrol.com/news/business/earnings-business/pfc-may-post-5-fall-in-q2-profit-loan-growth-seen-in-double-digits-2427521.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins' } ],
+  fields: 
+   { PRIMARY: 'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins' },
+  parent: 
+   { Error: Duplicate entry 'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins will remain flat\',\'2017-11-01 03:42:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hexaware-technologies-q2-pat-may-fall-3-at-rs-118-94cr-margins-will-remain-flat-2425159.html\');' },
+  original: 
+   { Error: Duplicate entry 'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins will remain flat\',\'2017-11-01 03:42:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hexaware-technologies-q2-pat-may-fall-3-at-rs-118-94cr-margins-will-remain-flat-2425159.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hexaware Technologies Q2 PAT may fall 3% at Rs 118.94cr; margins will remain flat\',\'2017-11-01 03:42:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hexaware-technologies-q2-pat-may-fall-3-at-rs-118-94cr-margins-will-remain-flat-2425159.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr-2017-11-01 03:41' } ],
+  fields: 
+   { PRIMARY: 'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr-2017-11-01 03:41' },
+  parent: 
+   { Error: Duplicate entry 'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr-2017-11-01 03:41' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr\',\'2017-11-01 03:41:00\',\'http://www.moneycontrol.com/news/business/earnings-business/apollo-tyres-q2-pat-may-fall-27-at-rs-188-48cr-2425149.html\');' },
+  original: 
+   { Error: Duplicate entry 'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr-2017-11-01 03:41' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr\',\'2017-11-01 03:41:00\',\'http://www.moneycontrol.com/news/business/earnings-business/apollo-tyres-q2-pat-may-fall-27-at-rs-188-48cr-2425149.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Apollo Tyres Q2 PAT may fall 27% at Rs 188.48cr\',\'2017-11-01 03:41:00\',\'http://www.moneycontrol.com/news/business/earnings-business/apollo-tyres-q2-pat-may-fall-27-at-rs-188-48cr-2425149.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue m' } ],
+  fields: 
+   { PRIMARY: 'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue m' },
+  parent: 
+   { Error: Duplicate entry 'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue m' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue may grow 3%\',\'2017-10-31 02:33:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tech-mahindra-q2-profit-seen-down-8-percent-to-rs-740-cr-but-revenue-may-grow-3-2424883.html\');' },
+  original: 
+   { Error: Duplicate entry 'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue m' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue may grow 3%\',\'2017-10-31 02:33:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tech-mahindra-q2-profit-seen-down-8-percent-to-rs-740-cr-but-revenue-may-grow-3-2424883.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tech Mahindra Q2 profit seen down 8% to Rs 740 cr, but revenue may grow 3%\',\'2017-10-31 02:33:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tech-mahindra-q2-profit-seen-down-8-percent-to-rs-740-cr-but-revenue-may-grow-3-2424883.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'TVS Motor Q2 profit, revenue, operating income may grow 19%-2017' } ],
+  fields: 
+   { PRIMARY: 'TVS Motor Q2 profit, revenue, operating income may grow 19%-2017' },
+  parent: 
+   { Error: Duplicate entry 'TVS Motor Q2 profit, revenue, operating income may grow 19%-2017' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'TVS Motor Q2 profit, revenue, operating income may grow 19%\',\'2017-10-31 02:23:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tvs-motor-q2-profit-revenue-operating-income-may-grow-19-2424881.html\');' },
+  original: 
+   { Error: Duplicate entry 'TVS Motor Q2 profit, revenue, operating income may grow 19%-2017' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'TVS Motor Q2 profit, revenue, operating income may grow 19%\',\'2017-10-31 02:23:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tvs-motor-q2-profit-revenue-operating-income-may-grow-19-2424881.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'TVS Motor Q2 profit, revenue, operating income may grow 19%\',\'2017-10-31 02:23:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tvs-motor-q2-profit-revenue-operating-income-may-grow-19-2424881.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Hero Motocorp Q2 profit seen up 3%, sales volumes may push reven' } ],
+  fields: 
+   { PRIMARY: 'Hero Motocorp Q2 profit seen up 3%, sales volumes may push reven' },
+  parent: 
+   { Error: Duplicate entry 'Hero Motocorp Q2 profit seen up 3%, sales volumes may push reven' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hero Motocorp Q2 profit seen up 3%, sales volumes may push revenue 12% higher\',\'2017-10-31 02:15:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hero-motocorp-q2-profit-seen-up-3-sales-volumes-may-push-revenue-12-higher-2424871.html\');' },
+  original: 
+   { Error: Duplicate entry 'Hero Motocorp Q2 profit seen up 3%, sales volumes may push reven' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hero Motocorp Q2 profit seen up 3%, sales volumes may push revenue 12% higher\',\'2017-10-31 02:15:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hero-motocorp-q2-profit-seen-up-3-sales-volumes-may-push-revenue-12-higher-2424871.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Hero Motocorp Q2 profit seen up 3%, sales volumes may push revenue 12% higher\',\'2017-10-31 02:15:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hero-motocorp-q2-profit-seen-up-3-sales-volumes-may-push-revenue-12-higher-2424871.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore-' } ],
+  fields: 
+   { PRIMARY: 'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore-' },
+  parent: 
+   { Error: Duplicate entry 'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore-' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore\',\'2017-10-31 05:29:00\',\'http://www.moneycontrol.com/news/business/earnings-business/kpit-technologies-q2-net-profit-seen-down-20-at-rs-44-52-crore-2423963.html\');' },
+  original: 
+   { Error: Duplicate entry 'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore-' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore\',\'2017-10-31 05:29:00\',\'http://www.moneycontrol.com/news/business/earnings-business/kpit-technologies-q2-net-profit-seen-down-20-at-rs-44-52-crore-2423963.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'KPIT Technologies Q2 net profit seen down 20% at Rs 44.52 crore\',\'2017-10-31 05:29:00\',\'http://www.moneycontrol.com/news/business/earnings-business/kpit-technologies-q2-net-profit-seen-down-20-at-rs-44-52-crore-2423963.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better m' } ],
+  fields: 
+   { PRIMARY: 'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better m' },
+  parent: 
+   { Error: Duplicate entry 'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better m' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better margins\',\'2017-10-31 05:13:00\',\'http://www.moneycontrol.com/news/business/container-corporation-q2-pat-seen-up-52-at-rs-240cr-on-better-margins-2423927.html\');' },
+  original: 
+   { Error: Duplicate entry 'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better m' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better margins\',\'2017-10-31 05:13:00\',\'http://www.moneycontrol.com/news/business/container-corporation-q2-pat-seen-up-52-at-rs-240cr-on-better-margins-2423927.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Container Corporation Q2 PAT seen up 52% at Rs 240cr on better margins\',\'2017-10-31 05:13:00\',\'http://www.moneycontrol.com/news/business/container-corporation-q2-pat-seen-up-52-at-rs-240cr-on-better-margins-2423927.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growt' } ],
+  fields: 
+   { PRIMARY: 'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growt' },
+  parent: 
+   { Error: Duplicate entry 'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growt' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growth around 6% likely\',\'2017-10-30 00:59:00\',\'http://www.moneycontrol.com/news/business/earnings-business/daburs-q2-net-profit-seen-3-5-higher-at-rs-369-cr-vol-growth-around-6-likely-2423655.html\');' },
+  original: 
+   { Error: Duplicate entry 'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growt' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growth around 6% likely\',\'2017-10-30 00:59:00\',\'http://www.moneycontrol.com/news/business/earnings-business/daburs-q2-net-profit-seen-3-5-higher-at-rs-369-cr-vol-growth-around-6-likely-2423655.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Dabur’s Q2 net profit seen 3.5% higher at Rs 369 cr; vol growth around 6% likely\',\'2017-10-30 00:59:00\',\'http://www.moneycontrol.com/news/business/earnings-business/daburs-q2-net-profit-seen-3-5-higher-at-rs-369-cr-vol-growth-around-6-likely-2423655.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, N' } ],
+  fields: 
+   { PRIMARY: 'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, N' },
+  parent: 
+   { Error: Duplicate entry 'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, N' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, NIM may be around 8%\',\'2017-10-30 00:57:00\',\'http://www.moneycontrol.com/news/business/earnings-business/cholamandalam-investment-q2-profit-seen-down-24-to-rs-213-cr-nim-may-be-around-8-2423653.html\');' },
+  original: 
+   { Error: Duplicate entry 'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, N' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, NIM may be around 8%\',\'2017-10-30 00:57:00\',\'http://www.moneycontrol.com/news/business/earnings-business/cholamandalam-investment-q2-profit-seen-down-24-to-rs-213-cr-nim-may-be-around-8-2423653.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Cholamandalam Investment Q2 profit seen down 24% to Rs 213 cr, NIM may be around 8%\',\'2017-10-30 00:57:00\',\'http://www.moneycontrol.com/news/business/earnings-business/cholamandalam-investment-q2-profit-seen-down-24-to-rs-213-cr-nim-may-be-around-8-2423653.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Divis Labs Q2 profit seen down 1% on lower operational income an' } ],
+  fields: 
+   { PRIMARY: 'Divis Labs Q2 profit seen down 1% on lower operational income an' },
+  parent: 
+   { Error: Duplicate entry 'Divis Labs Q2 profit seen down 1% on lower operational income an' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Divis Labs Q2 profit seen down 1% on lower operational income and revenue\',\'2017-10-30 00:48:00\',\'http://www.moneycontrol.com/news/business/earnings-business/divis-labs-q2-profit-seen-down-1-on-lower-operational-income-and-revenue-2423649.html\');' },
+  original: 
+   { Error: Duplicate entry 'Divis Labs Q2 profit seen down 1% on lower operational income an' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Divis Labs Q2 profit seen down 1% on lower operational income and revenue\',\'2017-10-30 00:48:00\',\'http://www.moneycontrol.com/news/business/earnings-business/divis-labs-q2-profit-seen-down-1-on-lower-operational-income-and-revenue-2423649.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Divis Labs Q2 profit seen down 1% on lower operational income and revenue\',\'2017-10-30 00:48:00\',\'http://www.moneycontrol.com/news/business/earnings-business/divis-labs-q2-profit-seen-down-1-on-lower-operational-income-and-revenue-2423649.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'JSW Steel Q2 profit seen up 43%, topline may be driven by higher' } ],
+  fields: 
+   { PRIMARY: 'JSW Steel Q2 profit seen up 43%, topline may be driven by higher' },
+  parent: 
+   { Error: Duplicate entry 'JSW Steel Q2 profit seen up 43%, topline may be driven by higher' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'JSW Steel Q2 profit seen up 43%, topline may be driven by higher realisations\',\'2017-10-30 00:36:00\',\'http://www.moneycontrol.com/news/business/earnings-business/jsw-steel-q2-profit-seen-up-43-topline-may-be-driven-by-higher-realisations-2423641.html\');' },
+  original: 
+   { Error: Duplicate entry 'JSW Steel Q2 profit seen up 43%, topline may be driven by higher' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'JSW Steel Q2 profit seen up 43%, topline may be driven by higher realisations\',\'2017-10-30 00:36:00\',\'http://www.moneycontrol.com/news/business/earnings-business/jsw-steel-q2-profit-seen-up-43-topline-may-be-driven-by-higher-realisations-2423641.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'JSW Steel Q2 profit seen up 43%, topline may be driven by higher realisations\',\'2017-10-30 00:36:00\',\'http://www.moneycontrol.com/news/business/earnings-business/jsw-steel-q2-profit-seen-up-43-topline-may-be-driven-by-higher-realisations-2423641.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Dr Reddys Labs Q2 profit seen down 9% on continued pricing press' } ],
+  fields: 
+   { PRIMARY: 'Dr Reddys Labs Q2 profit seen down 9% on continued pricing press' },
+  parent: 
+   { Error: Duplicate entry 'Dr Reddys Labs Q2 profit seen down 9% on continued pricing press' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Dr Reddys Labs Q2 profit seen down 9% on continued pricing pressure in US\',\'2017-10-30 00:17:00\',\'http://www.moneycontrol.com/news/business/earnings-business/dr-reddys-labs-q2-profit-seen-down-9-on-continued-pricing-pressure-in-us-2423629.html\');' },
+  original: 
+   { Error: Duplicate entry 'Dr Reddys Labs Q2 profit seen down 9% on continued pricing press' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Dr Reddys Labs Q2 profit seen down 9% on continued pricing pressure in US\',\'2017-10-30 00:17:00\',\'http://www.moneycontrol.com/news/business/earnings-business/dr-reddys-labs-q2-profit-seen-down-9-on-continued-pricing-pressure-in-us-2423629.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Dr Reddys Labs Q2 profit seen down 9% on continued pricing pressure in US\',\'2017-10-30 00:17:00\',\'http://www.moneycontrol.com/news/business/earnings-business/dr-reddys-labs-q2-profit-seen-down-9-on-continued-pricing-pressure-in-us-2423629.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Bharti Airtel Q2 profit seen down 13% on rising competition from' } ],
+  fields: 
+   { PRIMARY: 'Bharti Airtel Q2 profit seen down 13% on rising competition from' },
+  parent: 
+   { Error: Duplicate entry 'Bharti Airtel Q2 profit seen down 13% on rising competition from' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Bharti Airtel Q2 profit seen down 13% on rising competition from Jio\',\'2017-10-30 00:01:00\',\'http://www.moneycontrol.com/news/business/earnings-business/bharti-airtel-q2-profit-seen-down-13-on-rising-competition-from-jio-2423601.html\');' },
+  original: 
+   { Error: Duplicate entry 'Bharti Airtel Q2 profit seen down 13% on rising competition from' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Bharti Airtel Q2 profit seen down 13% on rising competition from Jio\',\'2017-10-30 00:01:00\',\'http://www.moneycontrol.com/news/business/earnings-business/bharti-airtel-q2-profit-seen-down-13-on-rising-competition-from-jio-2423601.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Bharti Airtel Q2 profit seen down 13% on rising competition from Jio\',\'2017-10-30 00:01:00\',\'http://www.moneycontrol.com/news/business/earnings-business/bharti-airtel-q2-profit-seen-down-13-on-rising-competition-from-jio-2423601.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at ' } ],
+  fields: 
+   { PRIMARY: 'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at ' },
+  parent: 
+   { Error: Duplicate entry 'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at 7-8% likely\',\'2017-10-29 19:41:00\',\'http://www.moneycontrol.com/news/business/earnings-business/marico-q2-profit-seen-up-over-4-at-rs-189-cr-volume-growth-at-7-8-likely-2423125.html\');' },
+  original: 
+   { Error: Duplicate entry 'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at 7-8% likely\',\'2017-10-29 19:41:00\',\'http://www.moneycontrol.com/news/business/earnings-business/marico-q2-profit-seen-up-over-4-at-rs-189-cr-volume-growth-at-7-8-likely-2423125.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Marico Q2 profit seen up over 4% at Rs 189 cr; volume growth at 7-8% likely\',\'2017-10-29 19:41:00\',\'http://www.moneycontrol.com/news/business/earnings-business/marico-q2-profit-seen-up-over-4-at-rs-189-cr-volume-growth-at-7-8-likely-2423125.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4' } ],
+  fields: 
+   { PRIMARY: 'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4' },
+  parent: 
+   { Error: Duplicate entry 'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4%\',\'2017-10-30 07:14:00\',\'http://www.moneycontrol.com/news/business/earnings-business/upl-q2-net-profit-to-grow-95-to-rs-387-cr-revenue-seen-up-12-4-2422923.html\');' },
+  original: 
+   { Error: Duplicate entry 'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4%\',\'2017-10-30 07:14:00\',\'http://www.moneycontrol.com/news/business/earnings-business/upl-q2-net-profit-to-grow-95-to-rs-387-cr-revenue-seen-up-12-4-2422923.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'UPL Q2 net profit to grow 95% to Rs 387 cr, revenue seen up 12.4%\',\'2017-10-30 07:14:00\',\'http://www.moneycontrol.com/news/business/earnings-business/upl-q2-net-profit-to-grow-95-to-rs-387-cr-revenue-seen-up-12-4-2422923.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decl' } ],
+  fields: 
+   { PRIMARY: 'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decl' },
+  parent: 
+   { Error: Duplicate entry 'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decl' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decline 26%\',\'2017-10-30 06:45:00\',\'http://www.moneycontrol.com/news/business/earnings-business/lupin-q2-profit-seen-down-39-at-rs-404-cr-us-business-may-decline-26-2423007.html\');' },
+  original: 
+   { Error: Duplicate entry 'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decl' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decline 26%\',\'2017-10-30 06:45:00\',\'http://www.moneycontrol.com/news/business/earnings-business/lupin-q2-profit-seen-down-39-at-rs-404-cr-us-business-may-decline-26-2423007.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Lupin Q2 profit seen down 39% at Rs 404 cr, US business may decline 26%\',\'2017-10-30 06:45:00\',\'http://www.moneycontrol.com/news/business/earnings-business/lupin-q2-profit-seen-down-39-at-rs-404-cr-us-business-may-decline-26-2423007.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan grow' } ],
+  fields: 
+   { PRIMARY: 'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan grow' },
+  parent: 
+   { Error: Duplicate entry 'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan grow' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan growth may be around 15%\',\'2017-10-30 06:43:00\',\'http://www.moneycontrol.com/news/business/earnings-business/lic-housing-finance-q2-profit-seen-up-9-at-rs-538-cr-loan-growth-may-be-around-15-2422993.html\');' },
+  original: 
+   { Error: Duplicate entry 'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan grow' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan growth may be around 15%\',\'2017-10-30 06:43:00\',\'http://www.moneycontrol.com/news/business/earnings-business/lic-housing-finance-q2-profit-seen-up-9-at-rs-538-cr-loan-growth-may-be-around-15-2422993.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'LIC Housing Finance Q2 profit seen up 9% at Rs 538 cr, loan growth may be around 15%\',\'2017-10-30 06:43:00\',\'http://www.moneycontrol.com/news/business/earnings-business/lic-housing-finance-q2-profit-seen-up-9-at-rs-538-cr-loan-growth-may-be-around-15-2422993.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr' } ],
+  fields: 
+   { PRIMARY: 'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr' },
+  parent: 
+   { Error: Duplicate entry 'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr, volumes may boost topline\',\'2017-10-30 06:19:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tata-steel-likely-to-turn-black-in-q2-with-profit-at-rs-1200-cr-volumes-may-boost-topline-2422973.html\');' },
+  original: 
+   { Error: Duplicate entry 'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr, volumes may boost topline\',\'2017-10-30 06:19:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tata-steel-likely-to-turn-black-in-q2-with-profit-at-rs-1200-cr-volumes-may-boost-topline-2422973.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Tata Steel likely to turn black in Q2 with profit at Rs 1,200 cr, volumes may boost topline\',\'2017-10-30 06:19:00\',\'http://www.moneycontrol.com/news/business/earnings-business/tata-steel-likely-to-turn-black-in-q2-with-profit-at-rs-1200-cr-volumes-may-boost-topline-2422973.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'Bharti Infratel Q2 profit seen up 7%, any announcement of tower ' } ],
+  fields: 
+   { PRIMARY: 'Bharti Infratel Q2 profit seen up 7%, any announcement of tower ' },
+  parent: 
+   { Error: Duplicate entry 'Bharti Infratel Q2 profit seen up 7%, any announcement of tower ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Bharti Infratel Q2 profit seen up 7%, any announcement of tower sale deal key to watch\',\'2017-10-30 05:44:00\',\'http://www.moneycontrol.com/news/business/earnings-business/bharti-infratel-q2-profit-seen-up-7-any-announcement-of-tower-sale-deal-key-to-watch-2422929.html\');' },
+  original: 
+   { Error: Duplicate entry 'Bharti Infratel Q2 profit seen up 7%, any announcement of tower ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Bharti Infratel Q2 profit seen up 7%, any announcement of tower sale deal key to watch\',\'2017-10-30 05:44:00\',\'http://www.moneycontrol.com/news/business/earnings-business/bharti-infratel-q2-profit-seen-up-7-any-announcement-of-tower-sale-deal-key-to-watch-2422929.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'Bharti Infratel Q2 profit seen up 7%, any announcement of tower sale deal key to watch\',\'2017-10-30 05:44:00\',\'http://www.moneycontrol.com/news/business/earnings-business/bharti-infratel-q2-profit-seen-up-7-any-announcement-of-tower-sale-deal-key-to-watch-2422929.html\');' }
+Duplicate { SequelizeUniqueConstraintError: Validation error
+    at Query.formatError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:203:16)
+    at Query.connection.query [as onResult] (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\sequelize\lib\dialects\mysql\query.js:55:23)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:30:12)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+  name: 'SequelizeUniqueConstraintError',
+  errors: 
+   [ ValidationErrorItem {
+       message: 'PRIMARY must be unique',
+       type: 'unique violation',
+       path: 'PRIMARY',
+       value: 'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below ' } ],
+  fields: 
+   { PRIMARY: 'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below ' },
+  parent: 
+   { Error: Duplicate entry 'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below 1.2%\',\'2017-10-30 05:17:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hdfc-q2-profit-may-rise-7-to-rs-1962-cr-gross-npa-seen-below-1-2-2422897.html\');' },
+  original: 
+   { Error: Duplicate entry 'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below ' for key 'PRIMARY'
+    at Packet.asError (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packets\packet.js:703:13)
+    at Query.Command.execute (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\commands\command.js:28:22)
+    at Connection.handlePacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:515:28)
+    at PacketParser.onPacket (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:94:16)
+    at PacketParser.executeStart (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\packet_parser.js:77:14)
+    at Socket.<anonymous> (C:\Users\212596101\Documents\Personal\Projects\puntgo\node_modules\mysql2\lib\connection.js:102:29)
+    at emitOne (events.js:115:13)
+    at Socket.emit (events.js:210:7)
+    at addChunk (_stream_readable.js:264:12)
+    at readableAddChunk (_stream_readable.js:251:11)
+    at Socket.Readable.push (_stream_readable.js:209:10)
+    at TCP.onread (net.js:587:20)
+     code: 'ER_DUP_ENTRY',
+     errno: 1062,
+     sqlState: '#23000',
+     sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below 1.2%\',\'2017-10-30 05:17:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hdfc-q2-profit-may-rise-7-to-rs-1962-cr-gross-npa-seen-below-1-2-2422897.html\');' },
+  sql: 'INSERT INTO `PRE_RESULT_ESTIMATES` (`TITLE`,`DATE`,`LINK`) VALUES (\'HDFC Q2 profit may rise 7% to Rs 1,962 cr, gross NPA seen below 1.2%\',\'2017-10-30 05:17:00\',\'http://www.moneycontrol.com/news/business/earnings-business/hdfc-q2-profit-may-rise-7-to-rs-1962-cr-gross-npa-seen-below-1-2-2422897.html\');' }
